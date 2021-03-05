@@ -5,3 +5,7 @@
     bottom: 20%; 
     left: 20%;
 }
+
+*:focus {
+    outline: 0;
+}
