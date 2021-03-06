@@ -7,7 +7,7 @@ export function addPly(map) {
             data: 'geojson/vector_ply_testLyr.geojson'
         })
     
-    //only after a source was set can the feature be 
+    //only after a source was set can the feature be added
     map.addLayer({
         'id': 'molki',
         'type': 'fill',

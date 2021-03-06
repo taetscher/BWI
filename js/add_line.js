@@ -7,7 +7,7 @@ export function addLin(map) {
             data: 'geojson/vector_lin_testLyr.geojson'
         })
     
-    //only after a source was set can the feature be 
+    //only after a source was set can the feature be added
     map.addLayer({
         'id': 'trainTracks',
         'type': 'line',
