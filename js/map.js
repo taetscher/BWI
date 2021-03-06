@@ -1,5 +1,6 @@
 import {addPly} from "../js/add_ply.js";
 import {addLin} from "../js/add_line.js";
+import {addRAS} from "../js/add_rastr.js";
 
 //create new map
 var map = new mapboxgl.Map({
@@ -20,5 +21,6 @@ map.on('load', function (){
     
     addPly(map)
     addLin(map)
+    addRAS(map)
     
 })
