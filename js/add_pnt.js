@@ -9,7 +9,7 @@ export function addPnt(map) {
     
     //only after a source was set can the feature be added
     map.addLayer({
-        'id': 'pont_test',
+        'id': 'point_test',
         'type': 'circle',
         'source': 'pnt_test',
         'layout': {}
