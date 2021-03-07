@@ -1,4 +1,4 @@
-export function addRAS(map) {
+export function addRas(map) {
     //adds a source and layer to map
     
     //adding a local raster tile source

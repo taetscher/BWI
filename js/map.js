@@ -1,9 +1,9 @@
 import {addPnt} from "../js/add_pnt.js";
 import {addPly} from "../js/add_ply.js";
 import {addLin} from "../js/add_line.js";
-import {addRAS} from "../js/add_rastr.js";
+import {addRas} from "../js/add_rastr.js";
 
-//--------------INITIALIZE MAP START --------------------
+//-------------- INITIALIZE MAP START --------------------
 //create new map
 var map = new mapboxgl.Map({
             container: 'map',
@@ -24,7 +24,7 @@ var popup = new mapboxgl.Popup({
     closeOnClick: false
 });
 
-//--------------INITIALIZE MAP END --------------------
+//-------------- INITIALIZE MAP END --------------------
 
 
 //on load, add features and event handlers
@@ -33,7 +33,7 @@ map.on('load', function (){
     //add layers to the map on load
     addPly(map)
     addLin(map)
-    addRAS(map)
+    addRas(map)
     addPnt(map)
     
     //adjust opacity of raster tiles
@@ -64,7 +64,7 @@ map.on('load', function (){
     //remove popup on mousleave
     map.on('mouseleave', 'point_test', function () {
         map.getCanvas().style.cursor = '';
-        popup.remove();
+        if (popup) popup.remove();
     });
     //-------------- USER INTERACTION HANDLING END --------------------
     

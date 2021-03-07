@@ -1,0 +1,11 @@
+/* Marker tweaks */
+
+.mapboxgl-popup-content {
+    padding: 15px;
+    width: 180px;
+    height: 20px;
+}
+
+.mapboxgl-popup-content-wrapper {
+  padding: 1%;
+}
