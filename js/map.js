@@ -5,7 +5,7 @@ import {addRAS} from "../js/add_rastr.js";
 //create new map
 var map = new mapboxgl.Map({
             container: 'map',
-            style: 'mapstyles/style.json',
+            style: '../mapstyles/style.json',
             hash: false, //set this to true when productive (shows xyz in URL and updates it)
             minZoom: 6,
             maxZoom: 16,

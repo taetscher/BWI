@@ -4,7 +4,7 @@ export function addLin(map) {
     //in order to use data with mapbox, you need to specify its source
     map.addSource('lin_test', {
             type: 'geojson',
-            data: 'geojson/vector_lin_testLyr.geojson'
+            data: '../geojson/vector_lin_testLyr.geojson'
         })
     
     //only after a source was set can the feature be added

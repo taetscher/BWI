@@ -4,7 +4,7 @@ export function addPly(map) {
     //in order to use data with mapbox, you need to specify its source
     map.addSource('ply_test', {
             type: 'geojson',
-            data: 'geojson/vector_ply_testLyr.geojson',
+            data: '../geojson/vector_ply_testLyr.geojson',
         })
     
     //only after a source was set can the feature be added
