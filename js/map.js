@@ -41,7 +41,7 @@ map.on('load', function (){
     
     //-------------- USER INTERACTION HANDLING START --------------------
     //create a function on mouseenter
-    map.on('mousemove', 'point_test', function (e) {
+    map.on('mouseenter', 'point_test', function (e) {
 
         // Change the cursor style as a UI indicator.
         map.getCanvas().style.cursor = 'pointer';
@@ -69,6 +69,3 @@ map.on('load', function (){
     //-------------- USER INTERACTION HANDLING END --------------------
     
 })
-
-
-
