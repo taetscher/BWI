@@ -21,6 +21,11 @@ map.on('load', function (){
     
     addPly(map)
     addLin(map)
-    //addRAS(map)
+    addRAS(map)
+    
+    //adjust opacity of raster tiles
+    map.setPaintProperty(
+        'randomTiles', 'raster-opacity', 0.2
+    );
     
 })
