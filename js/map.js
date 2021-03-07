@@ -21,6 +21,6 @@ map.on('load', function (){
     
     addPly(map)
     addLin(map)
-    addRAS(map)
+    //addRAS(map)
     
 })

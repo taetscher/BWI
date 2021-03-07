@@ -4,7 +4,7 @@ export function addRAS(map) {
     //adding a local raster tile source
     map.addSource('raster_test', {
             'type': 'raster',
-            'tiles': ['../QGIS/tiles/{z}/{x}/{y}.png'],
+            'tiles': ['../QGIS/smrTiles/{z}/{x}/{y}.png'],
             'tileSize': 256
             
         })
@@ -14,7 +14,7 @@ export function addRAS(map) {
         'id': 'msr25',
         'type': 'raster',
         'source': 'raster_test',
-        'minzoom': 6,
-        'maxzoom': 14
+        'minZoom': 6,
+        'maxZoom': 14
         })
 }
