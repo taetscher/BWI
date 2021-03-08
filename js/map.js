@@ -31,8 +31,8 @@ var popup = new mapboxgl.Popup({
 map.on('load', function (){
     
     //add layers to the map on load
-    addPly(map)
-    addLin(map)
+    //addPly(map)
+    //addLin(map)
     addRas(map)
     addPnt(map)
     
