@@ -13,6 +13,8 @@ export function addPnt(map) {
         'id': 'freibaeder',
         'type': 'circle',
         'source': 'CH_freibaeder',
-        'layout': {}
+        'layout': {},
+        'minzoom': 12,
+        'maxzoom': 19
         })
 }
