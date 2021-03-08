@@ -41,13 +41,13 @@ map.on('load', function (){
     
     //-------------- USER INTERACTION HANDLING START --------------------
     //create a function on mouseenter
-    map.on('mouseenter', 'point_test', function (e) {
+    map.on('mouseenter', 'freibaeder', function (e) {
 
         // Change the cursor style as a UI indicator.
         map.getCanvas().style.cursor = 'pointer';
 
         var coordinates = e.features[0].geometry.coordinates.slice();
-        var name = e.features[0].properties.name;
+        var name = e.features[0].properties.Name;
 
         // Ensure that if the map is zoomed out such that multiple
         // copies of the feature are visible, the popup appears
@@ -62,7 +62,7 @@ map.on('load', function (){
     });
     
     //remove popup on mousleave
-    map.on('mouseleave', 'point_test', function () {
+    map.on('mouseleave', 'freibaeder', function () {
         map.getCanvas().style.cursor = '';
         if (popup) popup.remove();
     });

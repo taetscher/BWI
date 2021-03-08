@@ -2,16 +2,16 @@ export function addPnt(map) {
     //adds a source and layer to map
     
     //in order to use data with mapbox, you need to specify its source
-    map.addSource('pnt_test', {
+    map.addSource('CH_freibaeder', {
             type: 'geojson',
-            data: '../geojson/vector_pnt_testLyr.geojson',
+            data: '../geojson/freibaeder.geojson',
         })
     
     //only after a source was set can the feature be added
     map.addLayer({
-        'id': 'point_test',
+        'id': 'freibaeder',
         'type': 'circle',
-        'source': 'pnt_test',
+        'source': 'CH_freibaeder',
         'layout': {}
         })
 }

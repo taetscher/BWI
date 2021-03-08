@@ -1,11 +1,41 @@
 /* Marker tweaks */
 
+
+
+
+
+
+
+
+/* to style the background (all of it, including arrow) of popup */
+.mapboxgl-popup {
+    
+}
+
 .mapboxgl-popup-content {
-    padding: 15px;
-    width: 180px;
-    height: 20px;
+    background-color: aqua;
+    /*font-family: 'Oswald';*/
 }
 
 .mapboxgl-popup-content-wrapper {
-  padding: 1%;
+    padding: 10%;
+    background-color: aqua;
 }
+
+
+.mapboxgl-popup-anchor-top .mapboxgl-popup-tip,
+.mapboxgl-popup-anchor-top-left .mapboxgl-popup-tip,
+.mapboxgl-popup-anchor-top-right .mapboxgl-popup-tip {
+    border-bottom-color: aqua;
+    }
+.mapboxgl-popup-anchor-bottom .mapboxgl-popup-tip,
+.mapboxgl-popup-anchor-bottom-left .mapboxgl-popup-tip,
+.mapboxgl-popup-anchor-bottom-right .mapboxgl-popup-tip {
+    border-top-color: aqua;
+    }
+.mapboxgl-popup-anchor-left .mapboxgl-popup-tip {
+    border-right-color: aqua;
+    }
+.mapboxgl-popup-anchor-right .mapboxgl-popup-tip {
+    border-left-color: aqua;
+    }
