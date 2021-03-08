@@ -1,0 +1,3787 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2021-03-08T10:50:28Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/156389426",
+        "fee": "no",
+        "female": "no",
+        "leisure": "swimming_pool",
+        "male": "yes",
+        "name": "Männerbad Schanzengraben",
+        "opening_hours": "Su-Th 11:00-19:00; Fr 11:00-18:30",
+        "sport": "swimming",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5327028,
+          47.3712203
+        ]
+      },
+      "id": "node/156389426"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/251364449",
+        "indoor": "yes",
+        "leisure": "swimming_pool",
+        "name": "Hallenbad Weinfelden",
+        "opening_hours": "Mo-Fr 10:00-21:30; Sa-Su 10:00-17:30",
+        "outdoor": "no",
+        "public": "yes",
+        "sport": "swimming",
+        "website": "https://www.weinfelden.ch/leben/sportanlagen-unterkunft/hallenbad.html/277"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.104563,
+          47.5649841
+        ]
+      },
+      "id": "node/251364449"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/252685734",
+        "leisure": "swimming_pool",
+        "name": "Hallenbad Aadorf",
+        "opening_hours": "Mo-Fr 10:00-21:00; Tu 06:00-07:30,10:00-21:00; Th 06:00-21:00; Sa 12:00-17:00; Su 10:00-17:00",
+        "sport": "swimming",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.9047857,
+          47.4938646
+        ]
+      },
+      "id": "node/252685734"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/271986658",
+        "leisure": "swimming_pool",
+        "name": "Römerbad",
+        "sport": "swimming",
+        "website": "http://www.roemus.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.6858607,
+          47.5437503
+        ]
+      },
+      "id": "node/271986658"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/304646121",
+        "access": "permissive",
+        "indoor": "yes",
+        "leisure": "swimming_pool",
+        "name": "Schwimmbad Schulhaus Zihl",
+        "sport": "swimming",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4331633,
+          47.4597512
+        ]
+      },
+      "id": "node/304646121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/320760630",
+        "leisure": "swimming_pool",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5493564,
+          46.6832288
+        ]
+      },
+      "id": "node/320760630"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/349184019",
+        "leisure": "swimming_pool",
+        "name": "Swiss Holiday Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6180849,
+          46.9809406
+        ]
+      },
+      "id": "node/349184019"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/354615091",
+        "access": "yes",
+        "description": "Flussbad",
+        "fee": "no",
+        "leisure": "swimming_pool",
+        "location": "outdoor",
+        "name": "Oberer Letten",
+        "sport": "swimming",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5351985,
+          47.3852513
+        ]
+      },
+      "id": "node/354615091"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/388470982",
+        "access": "yes",
+        "covered": "yes",
+        "leisure": "swimming_pool",
+        "level": "-1",
+        "location": "indoor",
+        "name": "Piscine Municipale",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.11927,
+          46.1676753
+        ]
+      },
+      "id": "node/388470982"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/443422689",
+        "leisure": "swimming_pool",
+        "name": "Bogn d'aua da sal",
+        "name:de": "Solebad",
+        "name:en": "Brine Bath",
+        "name:fr": "Bain d'eau salé",
+        "name:rm": "Bogn d'aua da sal",
+        "name:ru": "солёная ва́нна",
+        "name:zh": "盐水浴",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.7626763,
+          46.4280337
+        ]
+      },
+      "id": "node/443422689"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/497348520",
+        "leisure": "swimming_pool",
+        "name": "Les Bains de Lavey",
+        "source": "extrapolation"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0180912,
+          46.2043602
+        ]
+      },
+      "id": "node/497348520"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/523841902",
+        "covered": "no",
+        "leisure": "swimming_pool",
+        "source": "survey",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.2462725,
+          46.4669937
+        ]
+      },
+      "id": "node/523841902"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/533753294",
+        "leisure": "swimming_pool",
+        "name": "Eienwäldli",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4226729,
+          46.809767
+        ]
+      },
+      "id": "node/533753294"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/768159567",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.7784291,
+          46.4829572
+        ]
+      },
+      "id": "node/768159567"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/836419061",
+        "cuisine": "regional",
+        "leisure": "swimming_pool",
+        "name": "Schiltalp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8697489,
+          46.5537403
+        ]
+      },
+      "id": "node/836419061"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/847160012",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9876613,
+          45.7624243
+        ]
+      },
+      "id": "node/847160012"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1025262598",
+        "leisure": "swimming_pool",
+        "name": "Nid du Cro",
+        "opening_date": "2011-04-01",
+        "sport": "fitness"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9570231,
+          46.9985155
+        ]
+      },
+      "id": "node/1025262598"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1033548825",
+        "access": "customers",
+        "leisure": "swimming_pool",
+        "length": "25",
+        "lit": "yes",
+        "location": "indoor",
+        "name": "Piscine couverte",
+        "operator": "Ville de Pully",
+        "sport": "swimming",
+        "swimming_pool": "indoor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6557956,
+          46.5105061
+        ]
+      },
+      "id": "node/1033548825"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1077337497",
+        "leisure": "swimming_pool",
+        "name": "Hallenbad SPZ",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.1306151,
+          47.1412141
+        ]
+      },
+      "id": "node/1077337497"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1084103729",
+        "addr:city": "Rümlang",
+        "addr:housenumber": "44",
+        "addr:postcode": "8153",
+        "addr:street": "Katzenrütistrasse",
+        "leisure": "swimming_pool",
+        "name": "Sportanlage Heuel",
+        "phone": "+41 44 817 71 00",
+        "source": "www.ruemlang.ch",
+        "sport": "swimming",
+        "website": "http://www.ruemlang.ch/de/kulturundfreizeit/sportanlagen/welcome.php?action=showobject&object_id=7904"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5246401,
+          47.448247
+        ]
+      },
+      "id": "node/1084103729"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1102204163",
+        "addr:housenumber": "44",
+        "addr:street": "Sorenbühlweg",
+        "leisure": "swimming_pool",
+        "name": "Freibad",
+        "opening_hours": "Mo-Su 08:30-19:00",
+        "phone": "+41 56 622 44 40",
+        "website": "https://schüwo-park.ch/freibad-wasser-im-schuewopark"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.2684201,
+          47.3545757
+        ]
+      },
+      "id": "node/1102204163"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1184940360",
+        "access": "private",
+        "leisure": "swimming_pool",
+        "length": "16",
+        "location": "indoor",
+        "name": "Piscine du Petit Dézaley"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.4874518,
+          46.5139306
+        ]
+      },
+      "id": "node/1184940360"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1232343574",
+        "leisure": "swimming_pool",
+        "name": "Wettkampfbecken 50m",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6165683,
+          47.255665
+        ]
+      },
+      "id": "node/1232343574"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1263619441",
+        "leisure": "swimming_pool",
+        "name": "Piscina Comunale Coperta di Valtournenche",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6239486,
+          45.8754179
+        ]
+      },
+      "id": "node/1263619441"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1298167021",
+        "addr:city": "Boncourt",
+        "addr:housenumber": "1",
+        "addr:postcode": "2926",
+        "addr:street": "Rue d'Ajoie",
+        "description": "Piscine de Boncourt, centre régional de promotion de la santé par le mouvement.",
+        "email": "info@piscineboncourt.ch",
+        "leisure": "swimming_pool",
+        "name": "Piscine Les Hémionées",
+        "operator": "Fondation Gérard Burrus les Hémionées",
+        "phone": "+41  32 475 61 61",
+        "tourism": "Bain,_wellness,_espaces_de_détente,_cours_sportifs_et_conseils",
+        "website": "http://http://www.piscineboncourt.ch",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0114743,
+          47.4959641
+        ]
+      },
+      "id": "node/1298167021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1299901546",
+        "leisure": "swimming_pool",
+        "name": "Lernschwimmbecken Schule Rüfenacht",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5399295,
+          46.9313373
+        ]
+      },
+      "id": "node/1299901546"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1336691757",
+        "leisure": "swimming_pool",
+        "name": "Hallenbad Mels",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.426432,
+          47.0470276
+        ]
+      },
+      "id": "node/1336691757"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1348543903",
+        "leisure": "swimming_pool",
+        "opening_hours": "Mo-Sa 09:30-22:00; Su 09:00-18:00",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5568308,
+          47.2157901
+        ]
+      },
+      "id": "node/1348543903"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1350614833",
+        "leisure": "swimming_pool",
+        "name": "Hallenbad",
+        "sport": "swimming",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5708234,
+          47.580696
+        ]
+      },
+      "id": "node/1350614833"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1366181538",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5959086,
+          46.7918698
+        ]
+      },
+      "id": "node/1366181538"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1395315671",
+        "leisure": "swimming_pool",
+        "name": "Nichtschwimmer Erwachsene"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.389553,
+          47.4221545
+        ]
+      },
+      "id": "node/1395315671"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1395315672",
+        "leisure": "swimming_pool",
+        "name": "Nichtschwimmer Kinder"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.3895188,
+          47.4222321
+        ]
+      },
+      "id": "node/1395315672"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1400081864",
+        "access": "customers",
+        "leisure": "swimming_pool",
+        "location": "indoor",
+        "name": "Schwimmhalle Krauer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.2808197,
+          47.0326319
+        ]
+      },
+      "id": "node/1400081864"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1433669872",
+        "leisure": "swimming_pool",
+        "name": "Montagnola Pool",
+        "source": "local_knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.9180828,
+          45.9892558
+        ]
+      },
+      "id": "node/1433669872"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1532747285",
+        "leisure": "swimming_pool",
+        "name": "Frei- und Sprudelbad",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8953835,
+          47.5521817
+        ]
+      },
+      "id": "node/1532747285"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1562370789",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5396365,
+          45.8306002
+        ]
+      },
+      "id": "node/1562370789"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1601593815",
+        "leisure": "swimming_pool",
+        "name": "Hallenbad Flös"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.48146,
+          47.1588697
+        ]
+      },
+      "id": "node/1601593815"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1624981018",
+        "leisure": "swimming_pool",
+        "name": "Schwimmteich zu Stöcklin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5883435,
+          47.458725
+        ]
+      },
+      "id": "node/1624981018"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1654954234",
+        "access": "yes",
+        "barrier": "entrance",
+        "covered": "no",
+        "leisure": "swimming_pool",
+        "name": "Schwimmbad Frutzauen",
+        "sport": "swimming",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.645119,
+          47.2846233
+        ]
+      },
+      "id": "node/1654954234"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1668066949",
+        "addr:city": "Prilly",
+        "addr:housenumber": "2",
+        "addr:street": "Sentier de la Fleur-de-Lys",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6037114,
+          46.5439918
+        ]
+      },
+      "id": "node/1668066949"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1676631255",
+        "access": "private",
+        "leisure": "swimming_pool",
+        "operator": "Hôtel de la Poste"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2300945,
+          46.0952514
+        ]
+      },
+      "id": "node/1676631255"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1728558194",
+        "access": "yes",
+        "bath:open_air": "yes",
+        "covered": "no",
+        "fee": "yes",
+        "leisure": "swimming_pool",
+        "name": "Freibad Lerchenfeld",
+        "sport": "swimming",
+        "water_park": "outdoor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.3417313,
+          47.4158291
+        ]
+      },
+      "id": "node/1728558194"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1747366323",
+        "leisure": "swimming_pool",
+        "sport": "swimming",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5031991,
+          47.1813507
+        ]
+      },
+      "id": "node/1747366323"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1762986997",
+        "addr:city": "Chavannes-près-Renens",
+        "addr:housenumber": "2",
+        "addr:postcode": "1022",
+        "addr:street": "Route de la Plaine",
+        "leisure": "swimming_pool",
+        "name": "Piscine de la Plaine",
+        "operator": "commune",
+        "phone": "+41 21 633 32 30",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5723446,
+          46.527121
+        ]
+      },
+      "id": "node/1762986997"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1806088706",
+        "addr:housenumber": "41",
+        "leisure": "swimming_pool",
+        "name": "Wiemel",
+        "swimming_pool": "indoor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3713734,
+          47.4426592
+        ]
+      },
+      "id": "node/1806088706"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1837282862",
+        "leisure": "swimming_pool",
+        "sport": "swimming",
+        "swimming_pool": "indoor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5706659,
+          47.4319041
+        ]
+      },
+      "id": "node/1837282862"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1909930778",
+        "leisure": "swimming_pool",
+        "name": "Piscina Comunale",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.1780428,
+          46.2185953
+        ]
+      },
+      "id": "node/1909930778"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1966371051",
+        "covered": "no",
+        "leisure": "swimming_pool",
+        "location": "indoor",
+        "sport": "swimming",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6242532,
+          46.8753678
+        ]
+      },
+      "id": "node/1966371051"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2067065067",
+        "covered": "no",
+        "leisure": "swimming_pool",
+        "name": "Freibad Flawil",
+        "sport": "swimming",
+        "water_park": "outdoor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1914323,
+          47.4044996
+        ]
+      },
+      "id": "node/2067065067"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2067089002",
+        "covered": "no",
+        "leisure": "swimming_pool",
+        "name": "Freibad Degersheim",
+        "sport": "swimming",
+        "water_park": "outdoor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2025248,
+          47.3740632
+        ]
+      },
+      "id": "node/2067089002"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2077665896",
+        "leisure": "swimming_pool",
+        "name": "Hallenbad Oberuzwil",
+        "sport": "swimming",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1204069,
+          47.4293018
+        ]
+      },
+      "id": "node/2077665896"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2085652894",
+        "access": "private",
+        "leisure": "swimming_pool",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6076884,
+          45.9525234
+        ]
+      },
+      "id": "node/2085652894"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2085783545",
+        "access": "private",
+        "leisure": "swimming_pool",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6022998,
+          45.9496366
+        ]
+      },
+      "id": "node/2085783545"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2085787616",
+        "access": "private",
+        "leisure": "swimming_pool",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6000682,
+          45.9457015
+        ]
+      },
+      "id": "node/2085787616"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2085797810",
+        "access": "private",
+        "leisure": "swimming_pool",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6149223,
+          45.9567713
+        ]
+      },
+      "id": "node/2085797810"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2086967221",
+        "access": "private",
+        "leisure": "swimming_pool",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6206622,
+          45.9653015
+        ]
+      },
+      "id": "node/2086967221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2087433086",
+        "access": "private",
+        "leisure": "swimming_pool",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5944973,
+          45.9469958
+        ]
+      },
+      "id": "node/2087433086"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2087443485",
+        "access": "private",
+        "leisure": "swimming_pool",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5960127,
+          45.950183
+        ]
+      },
+      "id": "node/2087443485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2087471271",
+        "access": "private",
+        "leisure": "swimming_pool",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5944517,
+          45.9503304
+        ]
+      },
+      "id": "node/2087471271"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2087471320",
+        "access": "private",
+        "leisure": "swimming_pool",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5954414,
+          45.951992
+        ]
+      },
+      "id": "node/2087471320"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2088294337",
+        "access": "private",
+        "leisure": "swimming_pool",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6901844,
+          46.0779149
+        ]
+      },
+      "id": "node/2088294337"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2095711172",
+        "access": "customers",
+        "leisure": "swimming_pool",
+        "name": "Piscine de Thyon 2000",
+        "sport": "swimming",
+        "swimming_pool": "indoor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3722146,
+          46.1811824
+        ]
+      },
+      "id": "node/2095711172"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2097780995",
+        "access": "private",
+        "leisure": "swimming_pool",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6877053,
+          46.022987
+        ]
+      },
+      "id": "node/2097780995"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2098236280",
+        "indoor": "yes",
+        "leisure": "swimming_pool",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.7041489,
+          46.1850604
+        ]
+      },
+      "id": "node/2098236280"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2100382522",
+        "access": "private",
+        "leisure": "swimming_pool",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.694485,
+          46.0309569
+        ]
+      },
+      "id": "node/2100382522"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2102073137",
+        "access": "private",
+        "leisure": "swimming_pool",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6825636,
+          46.0205251
+        ]
+      },
+      "id": "node/2102073137"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2106914582",
+        "access": "private",
+        "leisure": "swimming_pool",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5344159,
+          45.8122953
+        ]
+      },
+      "id": "node/2106914582"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2107248962",
+        "addr:city": "Grins",
+        "addr:country": "AT",
+        "addr:housenumber": "99f",
+        "addr:postcode": "6591",
+        "addr:street": "Fals",
+        "entrance": "yes",
+        "image": "File:Schwimmbad Grins 01.jpg",
+        "leisure": "swimming_pool",
+        "name": "Schwimmbad Grins",
+        "operator": "Gemeinde Grins",
+        "phone": "+43 5442 64474",
+        "source": "survey",
+        "sport": "swimming",
+        "website": "http://www.grins.tirol.gv.at/system/web/gelbeseite.aspx?menuonr=218983839&typ=1&detailonr=219184344",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5117669,
+          47.1431334
+        ]
+      },
+      "id": "node/2107248962"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2111021967",
+        "leisure": "swimming_pool",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.50407,
+          45.794536
+        ]
+      },
+      "id": "node/2111021967"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2111021972",
+        "access": "private",
+        "leisure": "swimming_pool",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.503893,
+          45.7936177
+        ]
+      },
+      "id": "node/2111021972"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2111021975",
+        "access": "private",
+        "leisure": "swimming_pool",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5022863,
+          45.7938383
+        ]
+      },
+      "id": "node/2111021975"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2111411196",
+        "access": "private",
+        "leisure": "swimming_pool",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5285869,
+          45.7993834
+        ]
+      },
+      "id": "node/2111411196"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2118348536",
+        "covered": "yes",
+        "leisure": "swimming_pool",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8571421,
+          46.690272
+        ]
+      },
+      "id": "node/2118348536"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2127756250",
+        "access": "private",
+        "leisure": "swimming_pool",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5564395,
+          45.819773
+        ]
+      },
+      "id": "node/2127756250"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2142673963",
+        "access": "private",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.9423946,
+          46.7750252
+        ]
+      },
+      "id": "node/2142673963"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2142673992",
+        "access": "private",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.9405025,
+          46.7760479
+        ]
+      },
+      "id": "node/2142673992"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2142674042",
+        "access": "private",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.9402241,
+          46.7785926
+        ]
+      },
+      "id": "node/2142674042"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2150519363",
+        "leisure": "swimming_pool",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.210279,
+          46.7083693
+        ]
+      },
+      "id": "node/2150519363"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2262958710",
+        "leisure": "swimming_pool",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.8791333,
+          47.782692
+        ]
+      },
+      "id": "node/2262958710"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2297681650",
+        "addr:city": "Le Grand-Saconnex",
+        "addr:housenumber": "51",
+        "addr:street": "L'Ancienne-Route",
+        "leisure": "swimming_pool",
+        "name": "Piscine du Grand-Saconnex",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1275225,
+          46.2337985
+        ]
+      },
+      "id": "node/2297681650"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2361262806",
+        "leisure": "swimming_pool",
+        "name": "Water Park",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8708399,
+          45.9575551
+        ]
+      },
+      "id": "node/2361262806"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2363152257",
+        "leisure": "swimming_pool",
+        "name": "Schwimmbad Schmiedhof"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3322704,
+          47.0761148
+        ]
+      },
+      "id": "node/2363152257"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2384674373",
+        "covered": "no",
+        "leisure": "swimming_pool",
+        "name": "Moorbad (kostenfrei)",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.0094152,
+          47.4403216
+        ]
+      },
+      "id": "node/2384674373"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2386414286",
+        "leisure": "swimming_pool",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.000177,
+          47.2508276
+        ]
+      },
+      "id": "node/2386414286"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2424019449",
+        "covered": "yes",
+        "leisure": "swimming_pool",
+        "name": "Hallenbad",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.2675917,
+          47.4159017
+        ]
+      },
+      "id": "node/2424019449"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2537571893",
+        "addr:city": "Gignod",
+        "addr:housename": "Frazione Chez Roncoz",
+        "leisure": "swimming_pool",
+        "name": "Piscina comunitaria di Gignod",
+        "phone": "+39 0165 256925"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3096424,
+          45.7722138
+        ]
+      },
+      "id": "node/2537571893"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2577545824",
+        "indoor": "yes",
+        "leisure": "swimming_pool",
+        "length": "25",
+        "name": "Hallenbad Geroldswil",
+        "sport": "swimming",
+        "website": "http://www.geroldswil.ch/xml_1/internet/de/application/d5/d555/f487.cfm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4092815,
+          47.4223378
+        ]
+      },
+      "id": "node/2577545824"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2593022210",
+        "leisure": "swimming_pool",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2324785,
+          46.1455523
+        ]
+      },
+      "id": "node/2593022210"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2595598431",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3970121,
+          45.8628632
+        ]
+      },
+      "id": "node/2595598431"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2599431191",
+        "access": "private",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.7766294,
+          46.4104133
+        ]
+      },
+      "id": "node/2599431191"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2610051991",
+        "leisure": "swimming_pool",
+        "name": "Centre Sportif du Val-de-Travers",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6394343,
+          46.9286829
+        ]
+      },
+      "id": "node/2610051991"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2618968070",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1628527,
+          47.366674
+        ]
+      },
+      "id": "node/2618968070"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2677444245",
+        "access": "yes",
+        "leisure": "swimming_pool",
+        "name": "Badestelle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.6870166,
+          47.6778801
+        ]
+      },
+      "id": "node/2677444245"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2688437231",
+        "leisure": "swimming_pool",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.2785369,
+          46.0807118
+        ]
+      },
+      "id": "node/2688437231"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2710516033",
+        "covered": "yes",
+        "indoor": "door",
+        "leisure": "swimming_pool",
+        "note": "Hallenbad (nur für Gäste)",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.3320538,
+          47.2038693
+        ]
+      },
+      "id": "node/2710516033"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2710527236",
+        "leisure": "swimming_pool",
+        "name": "Reka",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.1971118,
+          46.7470874
+        ]
+      },
+      "id": "node/2710527236"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2727961454",
+        "access": "private",
+        "leisure": "swimming_pool",
+        "sport": "swimming",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.4284895,
+          45.9398587
+        ]
+      },
+      "id": "node/2727961454"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2731039644",
+        "covered": "no",
+        "leisure": "swimming_pool",
+        "name": "Badi Mellikon",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3510296,
+          47.5698215
+        ]
+      },
+      "id": "node/2731039644"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2732138967",
+        "access": "customers",
+        "leisure": "swimming_pool",
+        "name": "Salina Maris",
+        "phone": "+41279284200"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.0470328,
+          46.3592252
+        ]
+      },
+      "id": "node/2732138967"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2814984521",
+        "leisure": "swimming_pool",
+        "location": "yes",
+        "sport": "swimming",
+        "swimming_pool": "indoor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6226975,
+          47.4423805
+        ]
+      },
+      "id": "node/2814984521"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2854983862",
+        "leisure": "swimming_pool",
+        "name": "Piscine du Reposieux",
+        "opening_hours": "Mo, Tu, Th 20:30-22:00; We 13:15-15:00; Sa 14:00-17:00; Su 09:00-12:00, 14:00-17:00",
+        "phone": "+41 24 471 14 98",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9520423,
+          46.2594756
+        ]
+      },
+      "id": "node/2854983862"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2940341504",
+        "leisure": "swimming_pool",
+        "source": "data.gouv.fr:Le ministère des droits des femmes, de la ville, de la jeunesse et des sports - 2014",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.7060822,
+          45.9022065
+        ]
+      },
+      "id": "node/2940341504"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2971646279",
+        "access": "permissive",
+        "covered": "yes",
+        "horse": "no",
+        "leisure": "swimming_pool",
+        "motor_vehicle": "permissive",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1582807,
+          46.621278
+        ]
+      },
+      "id": "node/2971646279"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2987646301",
+        "access": "private",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.0320248,
+          45.7578782
+        ]
+      },
+      "id": "node/2987646301"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2998566466",
+        "leisure": "swimming_pool",
+        "name": "Zugang zu Zürichsee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7304064,
+          47.2028799
+        ]
+      },
+      "id": "node/2998566466"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2998571967",
+        "leisure": "swimming_pool",
+        "name": "Zugang zu Zürichsee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7579715,
+          47.2078809
+        ]
+      },
+      "id": "node/2998571967"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3003500915",
+        "leisure": "swimming_pool",
+        "name": "Hallenbad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.754778,
+          47.2036153
+        ]
+      },
+      "id": "node/3003500915"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3055441633",
+        "access": "yes",
+        "indoor": "yes",
+        "leisure": "swimming_pool",
+        "length": "25",
+        "level": "-1",
+        "lit": "yes",
+        "location": "indoor",
+        "name": "Hallenbad Spreitenbach",
+        "operator": "Gemeinde Spreitenbach",
+        "sport": "swimming",
+        "swimming_pool": "indoor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3673895,
+          47.4215019
+        ]
+      },
+      "id": "node/3055441633"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3157608955",
+        "access": "permissive",
+        "covered": "yes",
+        "leisure": "swimming_pool",
+        "name": "Hallenbad Brühl",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6985749,
+          47.3418203
+        ]
+      },
+      "id": "node/3157608955"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3172316033",
+        "addr:city": "Bäretswil",
+        "addr:housenumber": "2",
+        "addr:postcode": "8344",
+        "addr:street": "Engelsteinstrasse",
+        "leisure": "swimming_pool",
+        "name": "Lehrschwimmbecken Schulhaus Letten",
+        "opening_hours": "Aug-Apr Tu 19:30-20:45 open \"Nach den Herbstferien bis zu den Frühlingsferien ist das Lehrschwimmbecken im Schulhaus Letten für die Erwachsenen. Türschliessung 21:00 Uhr\"; PH,SH off",
+        "website": "http://www.baeretswil.org/letten.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8513138,
+          47.3390002
+        ]
+      },
+      "id": "node/3172316033"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3204692904",
+        "leisure": "swimming_pool",
+        "name": "Lido-Hallenbad",
+        "operator": "Gemeinde Weggis"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4193151,
+          47.028825
+        ]
+      },
+      "id": "node/3204692904"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3270001176",
+        "leisure": "swimming_pool",
+        "name": "Piscine de Perrosalle",
+        "opening_hours": "We 14:00-21:45; Fr 17:45-21:45; Su 09:00-13:00",
+        "sport": "swimming",
+        "website": "https://www.ollon.ch/N378/piscine-de-perrosalle.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9883247,
+          46.2927214
+        ]
+      },
+      "id": "node/3270001176"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3392475436",
+        "access": "private",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1487009,
+          46.8062348
+        ]
+      },
+      "id": "node/3392475436"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3394041689",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.0629721,
+          46.3921735
+        ]
+      },
+      "id": "node/3394041689"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3463719648",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7979624,
+          45.8300574
+        ]
+      },
+      "id": "node/3463719648"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3517074387",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.123705,
+          46.8700852
+        ]
+      },
+      "id": "node/3517074387"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3636656828",
+        "leisure": "swimming_pool",
+        "name": "Quelldorado",
+        "opening_hours": "Mo-Th 09:00-16:30; Fr 09:00-16:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3900163,
+          47.5034857
+        ]
+      },
+      "id": "node/3636656828"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3670051354",
+        "amenity": "public_bath",
+        "bath:open_air": "yes",
+        "leisure": "swimming_pool",
+        "name": "Frankrichli",
+        "opening_hours": "May 1-Sep 30: 09:00+",
+        "sport": "swimming",
+        "website": "https://www.badibeizfrankrichli.com/badi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.9565901,
+          47.5930286
+        ]
+      },
+      "id": "node/3670051354"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3671946584",
+        "addr:housenumber": "1",
+        "addr:postcode": "11020",
+        "addr:street": "Plazzale Ramey",
+        "leisure": "swimming_pool",
+        "name": "Monterosa Terme",
+        "phone": "+340125308000",
+        "website": "http://www.laviadelleterme.it"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.7314182,
+          45.8400173
+        ]
+      },
+      "id": "node/3671946584"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3773485742",
+        "leisure": "swimming_pool",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1214108,
+          45.9203087
+        ]
+      },
+      "id": "node/3773485742"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3827257083",
+        "access": "private",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.1879489,
+          47.314337
+        ]
+      },
+      "id": "node/3827257083"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3885037744",
+        "leisure": "swimming_pool",
+        "source": "data.gouv.fr:Le ministère des droits des femmes, de la ville, de la jeunesse et des sports - 2014",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.169243,
+          47.635298
+        ]
+      },
+      "id": "node/3885037744"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3885104791",
+        "leisure": "swimming_pool",
+        "source": "data.gouv.fr:Le ministère des droits des femmes, de la ville, de la jeunesse et des sports - 2014",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.132902,
+          47.6158295
+        ]
+      },
+      "id": "node/3885104791"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3886089633",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.0624228,
+          45.7871808
+        ]
+      },
+      "id": "node/3886089633"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3901555770",
+        "leisure": "swimming_pool",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.7465798,
+          47.2105519
+        ]
+      },
+      "id": "node/3901555770"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3950119165",
+        "leisure": "swimming_pool",
+        "name": "Bewegungszentrum",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.0324358,
+          47.7073538
+        ]
+      },
+      "id": "node/3950119165"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4027467308",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.3054645,
+          46.4979021
+        ]
+      },
+      "id": "node/4027467308"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4190874634",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.3530471,
+          45.8760152
+        ]
+      },
+      "id": "node/4190874634"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4333569486",
+        "leisure": "swimming_pool",
+        "name": "Wellness- und Erlebnisbad Davos \"eau-là-là\"",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.8307003,
+          46.800651
+        ]
+      },
+      "id": "node/4333569486"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4454624963",
+        "access": "private",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8517482,
+          46.8516038
+        ]
+      },
+      "id": "node/4454624963"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4454626037",
+        "access": "private",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8535131,
+          46.852642
+        ]
+      },
+      "id": "node/4454626037"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4454626042",
+        "access": "private",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8547067,
+          46.852664
+        ]
+      },
+      "id": "node/4454626042"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4454626044",
+        "access": "private",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8541702,
+          46.8526714
+        ]
+      },
+      "id": "node/4454626044"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4454626224",
+        "access": "private",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8556602,
+          46.8530015
+        ]
+      },
+      "id": "node/4454626224"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4454626255",
+        "access": "private",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8551036,
+          46.8531226
+        ]
+      },
+      "id": "node/4454626255"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4454626276",
+        "access": "private",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8549641,
+          46.853185
+        ]
+      },
+      "id": "node/4454626276"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4454626309",
+        "access": "private",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8534111,
+          46.853328
+        ]
+      },
+      "id": "node/4454626309"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4454626340",
+        "access": "private",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8563267,
+          46.8534491
+        ]
+      },
+      "id": "node/4454626340"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4454626388",
+        "access": "private",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8575793,
+          46.8536069
+        ]
+      },
+      "id": "node/4454626388"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4454626405",
+        "access": "private",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8582364,
+          46.8536527
+        ]
+      },
+      "id": "node/4454626405"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4454626417",
+        "access": "private",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8550044,
+          46.8536802
+        ]
+      },
+      "id": "node/4454626417"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4454626420",
+        "access": "private",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.857995,
+          46.8536857
+        ]
+      },
+      "id": "node/4454626420"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4454626502",
+        "access": "private",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8549507,
+          46.853937
+        ]
+      },
+      "id": "node/4454626502"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4454626528",
+        "access": "private",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8579199,
+          46.8540067
+        ]
+      },
+      "id": "node/4454626528"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4454626570",
+        "access": "private",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8552833,
+          46.8541241
+        ]
+      },
+      "id": "node/4454626570"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4454626571",
+        "access": "private",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8555676,
+          46.8541241
+        ]
+      },
+      "id": "node/4454626571"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4454626574",
+        "access": "private",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8574103,
+          46.8541315
+        ]
+      },
+      "id": "node/4454626574"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4454626594",
+        "access": "private",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8566633,
+          46.8541846
+        ]
+      },
+      "id": "node/4454626594"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4454626624",
+        "access": "private",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8588252,
+          46.8542699
+        ]
+      },
+      "id": "node/4454626624"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4454626671",
+        "access": "private",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8551827,
+          46.8544414
+        ]
+      },
+      "id": "node/4454626671"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4454626721",
+        "access": "private",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8583638,
+          46.854634
+        ]
+      },
+      "id": "node/4454626721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4454626736",
+        "access": "private",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8579052,
+          46.8547001
+        ]
+      },
+      "id": "node/4454626736"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4454626760",
+        "access": "private",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8589647,
+          46.8548028
+        ]
+      },
+      "id": "node/4454626760"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4454626900",
+        "access": "private",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.859831,
+          46.8550284
+        ]
+      },
+      "id": "node/4454626900"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4454626904",
+        "access": "private",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8594636,
+          46.8550651
+        ]
+      },
+      "id": "node/4454626904"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4454626925",
+        "access": "private",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8590666,
+          46.855166
+        ]
+      },
+      "id": "node/4454626925"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4454626944",
+        "access": "private",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.858506,
+          46.8552357
+        ]
+      },
+      "id": "node/4454626944"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4454627004",
+        "access": "private",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8580997,
+          46.8557749
+        ]
+      },
+      "id": "node/4454627004"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4454627021",
+        "access": "private",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8588641,
+          46.8559345
+        ]
+      },
+      "id": "node/4454627021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4454627028",
+        "access": "private",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8590787,
+          46.8560647
+        ]
+      },
+      "id": "node/4454627028"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4454627033",
+        "access": "private",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8593898,
+          46.8562004
+        ]
+      },
+      "id": "node/4454627033"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4589869882",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.3165845,
+          46.070052
+        ]
+      },
+      "id": "node/4589869882"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4629869758",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4038231,
+          47.401448
+        ]
+      },
+      "id": "node/4629869758"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4704114321",
+        "leisure": "swimming_pool",
+        "name": "Pradas Resort"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.0673983,
+          46.7702501
+        ]
+      },
+      "id": "node/4704114321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4794080212",
+        "addr:city": "Laax",
+        "addr:housenumber": "45",
+        "addr:postcode": "7031",
+        "addr:street": "Via Grava",
+        "leisure": "swimming_pool",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2577961,
+          46.8106462
+        ]
+      },
+      "id": "node/4794080212"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4931032255",
+        "leisure": "swimming_pool",
+        "name": "Pataugeoire"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1507292,
+          46.2184975
+        ]
+      },
+      "id": "node/4931032255"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5074344312",
+        "access": "private",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.9181643,
+          47.5585939
+        ]
+      },
+      "id": "node/5074344312"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5092543435",
+        "leisure": "swimming_pool",
+        "source": "data.gouv.fr:Le ministère des droits des femmes, de la ville, de la jeunesse et des sports - 11/2015",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0189,
+          47.34606
+        ]
+      },
+      "id": "node/5092543435"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5179505154",
+        "leisure": "swimming_pool",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8447362,
+          46.2485052
+        ]
+      },
+      "id": "node/5179505154"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5181505586",
+        "leisure": "swimming_pool",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1228209,
+          47.2661467
+        ]
+      },
+      "id": "node/5181505586"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5184210422",
+        "addr:city": "Konstanz",
+        "addr:housenumber": "2",
+        "addr:postcode": "78464",
+        "addr:street": "Zur Therme",
+        "addr:suburb": "Staad",
+        "leisure": "swimming_pool",
+        "name": "Bodensee-Therme Konstanz",
+        "toilets:wheelchair": "yes",
+        "website": "https://www.therme-konstanz.de/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.208959,
+          47.664522
+        ]
+      },
+      "id": "node/5184210422"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5224649885",
+        "leisure": "swimming_pool",
+        "source": "data.gouv.fr:Le ministère des droits des femmes, de la ville, de la jeunesse et des sports - 11/2015",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.50162,
+          47.78626
+        ]
+      },
+      "id": "node/5224649885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5225277946",
+        "leisure": "swimming_pool",
+        "source": "data.gouv.fr:Le ministère des droits des femmes, de la ville, de la jeunesse et des sports - 11/2015",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6789044,
+          47.0714899
+        ]
+      },
+      "id": "node/5225277946"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5491636991",
+        "addr:housenumber": "27",
+        "addr:street": "Chemin du Grand Lac",
+        "leisure": "swimming_pool",
+        "name": "Bains de Géronde",
+        "phone": "+41(0)27 452 02 70"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5408051,
+          46.2904349
+        ]
+      },
+      "id": "node/5491636991"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5516051335",
+        "addr:city": "Sierre",
+        "addr:housenumber": "33",
+        "addr:postcode": "3960",
+        "addr:street": "Rue de Glarey",
+        "leisure": "swimming_pool",
+        "name": "Piscine de Guillamo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.540305,
+          46.2991131
+        ]
+      },
+      "id": "node/5516051335"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5699006014",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5740338,
+          47.5529115
+        ]
+      },
+      "id": "node/5699006014"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5755491422",
+        "addr:city": "Feusisberg",
+        "addr:housenumber": "10",
+        "addr:postcode": "8835",
+        "addr:street": "Schulhausstrasse",
+        "description": "Öffnungszeiten: Mi 14-21 Uhr, Fr 17-21 Uhr, Sa 9-12 Uhr (Schulferien geschlossen)",
+        "leisure": "swimming_pool",
+        "name": "Hallenbad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7484698,
+          47.1885457
+        ]
+      },
+      "id": "node/5755491422"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5859259871",
+        "leisure": "swimming_pool",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3840261,
+          46.9553237
+        ]
+      },
+      "id": "node/5859259871"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5965957018",
+        "access": "yes",
+        "leisure": "swimming_pool",
+        "name": "Ägeribad",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6112634,
+          47.1339058
+        ]
+      },
+      "id": "node/5965957018"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6200164611",
+        "leisure": "swimming_pool",
+        "name": "Swimmbad Forum Sumiswald",
+        "sport": "swimming",
+        "swimming_pool": "indoor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.7609594,
+          47.0308764
+        ]
+      },
+      "id": "node/6200164611"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6202425824",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.9791879,
+          47.4836517
+        ]
+      },
+      "id": "node/6202425824"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6202438130",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.9833459,
+          47.4848641
+        ]
+      },
+      "id": "node/6202438130"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6208197371",
+        "leisure": "swimming_pool",
+        "note": "Aqua-Fitness, Bistro, Kinder lernen Schwimmen",
+        "phone": "+41 52 386 21 62",
+        "sport": "swimming",
+        "website": "http://www.hallibauma.ch"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8715231,
+          47.3707988
+        ]
+      },
+      "id": "node/6208197371"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6386552013",
+        "access": "customers",
+        "description": "whirlpool / jacuzzi",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.0187752,
+          46.2655189
+        ]
+      },
+      "id": "node/6386552013"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6402138551",
+        "leisure": "swimming_pool",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.9694412,
+          47.2149442
+        ]
+      },
+      "id": "node/6402138551"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6415003061",
+        "leisure": "swimming_pool",
+        "name": "piscine des Cerisiers",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.7753728,
+          46.8982876
+        ]
+      },
+      "id": "node/6415003061"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6576981212",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5701663,
+          47.583201
+        ]
+      },
+      "id": "node/6576981212"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6609723254",
+        "access": "private",
+        "covered": "no",
+        "leisure": "swimming_pool",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.9269153,
+          47.3479424
+        ]
+      },
+      "id": "node/6609723254"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6744554064",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5086987,
+          47.687048
+        ]
+      },
+      "id": "node/6744554064"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6829333247",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8175203,
+          47.4243792
+        ]
+      },
+      "id": "node/6829333247"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6837034237",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4765793,
+          47.5272314
+        ]
+      },
+      "id": "node/6837034237"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6869991040",
+        "access": "private",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8200403,
+          47.3286008
+        ]
+      },
+      "id": "node/6869991040"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7093893677",
+        "leisure": "swimming_pool",
+        "lit": "yes",
+        "location": "indoor",
+        "swimming_pool": "indoor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3100978,
+          47.5021298
+        ]
+      },
+      "id": "node/7093893677"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7141504655",
+        "access": "no",
+        "leisure": "swimming_pool",
+        "operator": "Neuhausen am Rheinfall",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6053178,
+          47.681496
+        ]
+      },
+      "id": "node/7141504655"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7321616647",
+        "access": "private",
+        "leisure": "swimming_pool",
+        "length": "3",
+        "lit": "no",
+        "location": "outdoor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9568207,
+          47.6228336
+        ]
+      },
+      "id": "node/7321616647"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7321616648",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9566186,
+          47.6225471
+        ]
+      },
+      "id": "node/7321616648"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7321616649",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9585758,
+          47.6230719
+        ]
+      },
+      "id": "node/7321616649"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7321616650",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9587821,
+          47.622879
+        ]
+      },
+      "id": "node/7321616650"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7321616651",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9586179,
+          47.6227684
+        ]
+      },
+      "id": "node/7321616651"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7321616652",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9589631,
+          47.6227286
+        ]
+      },
+      "id": "node/7321616652"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7321616653",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9593292,
+          47.6220024
+        ]
+      },
+      "id": "node/7321616653"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7321616654",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9576793,
+          47.6213612
+        ]
+      },
+      "id": "node/7321616654"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7321616655",
+        "access": "private",
+        "leisure": "swimming_pool",
+        "length": "10",
+        "lit": "yes",
+        "location": "indoor",
+        "swimming_pool": "indoor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9572306,
+          47.6235016
+        ]
+      },
+      "id": "node/7321616655"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7321616661",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9574062,
+          47.6227641
+        ]
+      },
+      "id": "node/7321616661"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7321616664",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.955303,
+          47.6211445
+        ]
+      },
+      "id": "node/7321616664"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7321616665",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9554157,
+          47.6205579
+        ]
+      },
+      "id": "node/7321616665"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7343062067",
+        "leisure": "swimming_pool",
+        "source": "Le ministère de la ville, de la jeunesse et des sports - 01/2018",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0555316,
+          47.2640484
+        ]
+      },
+      "id": "node/7343062067"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7343062156",
+        "leisure": "swimming_pool",
+        "source": "Le ministère de la ville, de la jeunesse et des sports - 01/2018",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.03477,
+          47.2378
+        ]
+      },
+      "id": "node/7343062156"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7343062204",
+        "leisure": "swimming_pool",
+        "source": "Le ministère de la ville, de la jeunesse et des sports - 01/2018",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.05942,
+          47.25226
+        ]
+      },
+      "id": "node/7343062204"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7345774144",
+        "leisure": "swimming_pool",
+        "source": "Le ministère de la ville, de la jeunesse et des sports - 01/2018",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.00551,
+          47.24937
+        ]
+      },
+      "id": "node/7345774144"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7345774358",
+        "leisure": "swimming_pool",
+        "source": "Le ministère de la ville, de la jeunesse et des sports - 01/2018",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.99633,
+          47.27078
+        ]
+      },
+      "id": "node/7345774358"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7345774474",
+        "leisure": "swimming_pool",
+        "source": "Le ministère de la ville, de la jeunesse et des sports - 01/2018",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.97342,
+          47.24848
+        ]
+      },
+      "id": "node/7345774474"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7578371429",
+        "access": "private",
+        "leisure": "swimming_pool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.976977,
+          47.1678711
+        ]
+      },
+      "id": "node/7578371429"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7743898385",
+        "covered": "yes",
+        "leisure": "swimming_pool",
+        "opening_hours": "Mo-Su 10:00-19:00",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.291831,
+          46.7909962
+        ]
+      },
+      "id": "node/7743898385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7776245992",
+        "access": "customers",
+        "leisure": "swimming_pool",
+        "location": "indoor",
+        "name": "Acquasana Muralto",
+        "swimming_pool": "indoor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8049873,
+          46.1764192
+        ]
+      },
+      "id": "node/7776245992"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7780890442",
+        "amenity": "public_bath",
+        "bath:open_air": "yes",
+        "bath:sand_bath": "yes",
+        "bath:type": "lake",
+        "leisure": "swimming_pool",
+        "name": "Strandbad Unterterzen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2547856,
+          47.1146668
+        ]
+      },
+      "id": "node/7780890442"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8000907914",
+        "leisure": "swimming_pool",
+        "sport": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9543127,
+          47.8163201
+        ]
+      },
+      "id": "node/8000907914"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8158481207",
+        "access": "private",
+        "leisure": "swimming_pool",
+        "source": "Orthophotos 2011 du SITG (Système d'Information du Territoire Genevois)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1557738,
+          46.2847328
+        ]
+      },
+      "id": "node/8158481207"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8294176892",
+        "leisure": "swimming_pool",
+        "operator": "Therme 51"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6276457,
+          46.379531
+        ]
+      },
+      "id": "node/8294176892"
+    }
+  ]
+}
