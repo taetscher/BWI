@@ -47,7 +47,7 @@ map.on('load', function (){
         map.getCanvas().style.cursor = 'pointer';
 
         var coordinates = e.features[0].geometry.coordinates.slice();
-        var name = e.features[0].properties.Name;
+        var name = e.features[0].properties.name;
 
         // Ensure that if the map is zoomed out such that multiple
         // copies of the feature are visible, the popup appears

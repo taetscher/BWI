@@ -4,7 +4,8 @@ export function addPnt(map) {
     //in order to use data with mapbox, you need to specify its source
     map.addSource('CH_freibaeder', {
             type: 'geojson',
-            data: '../geojson/freibaeder.geojson',
+            data: '../geojson/swimming_spots.geojson',
+            attribution: "© OpenStreetMap contributors"
         })
     
     //only after a source was set can the feature be added
