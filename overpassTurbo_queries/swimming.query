@@ -1,5 +1,5 @@
 /* FOR USE WITH OVERPASS TURBO --> http://overpass-turbo.eu/# */
-//this query selects all point and polygon features related to swimming activities
+//this query selects all point and polygon features related to swimming activities within switzerland
 
 [out:json][timeout:1000];
 

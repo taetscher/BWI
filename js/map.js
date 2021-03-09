@@ -8,11 +8,14 @@ import {addRas} from "../js/add_rastr.js";
 var map = new mapboxgl.Map({
             container: 'map',
             style: '../mapstyles/style.json',
-            hash: true, //set this to true when productive (shows xyz in URL and updates it)
+            hash: true, //set this to true when productive (shows xyz in URL and updates it on the fly)
             minZoom: 6,
             maxZoom: 19,
             center: [8.38,46.747],
-            zoom: 6.2
+            zoom: 6.2,
+            maxBounds: [[5.422,45.559],
+                        [10.8884,47.991]
+                       ]
           });
 
 //add map control (navigation) buttons
@@ -27,7 +30,7 @@ var popup = new mapboxgl.Popup({
 //-------------- INITIALIZE MAP END --------------------
 
 
-//on load, add features and event handlers
+
 map.on('load', function (){
     
     //add layers to the map on load
