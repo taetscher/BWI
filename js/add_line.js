@@ -1,5 +1,7 @@
 export function addLin(map) {
-    //adds a source and layer to map
+    /** Adds a line feature to a map object (FOR TESTING)
+    *
+    */
     
     //in order to use data with mapbox, you need to specify its source
     map.addSource('lin_test', {

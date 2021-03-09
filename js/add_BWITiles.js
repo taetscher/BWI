@@ -1,5 +1,7 @@
-export function addRas(map) {
-    //adds a source and layer to map
+export function addBWIRasterTiles(map) {
+    /** Adds BWI-Raster Tiles to a map object
+    *@param  {mapbox map object}   map   The map object which receives the BWI rastertiles
+    */
     
     //adding a local raster tile source
     map.addSource('raster_Tiling_test', {
@@ -14,7 +16,10 @@ export function addRas(map) {
         'id': 'randomTiles',
         'type': 'raster',
         'source': 'raster_Tiling_test',
-        'minZoom': 6,
-        'maxZoom': 14
+        'minzoom': 6,
+        'maxzoom': 20
         })
+    
+    //adjust opacity of raster tiles
+    map.setPaintProperty('randomTiles', 'raster-opacity', 0.2);
 }
