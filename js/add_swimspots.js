@@ -1,4 +1,4 @@
-export function addSwimSpots(map) {
+export function addSwimSpots(map, popup) {
     /**
     *Add source, layer and user interaction of swimming spots to map
     *@param  {mapbox map object}   map   The map which receives the swimming spot layer
@@ -33,12 +33,6 @@ export function addSwimSpots(map) {
     
     
     //-------------- USER INTERACTION HANDLING START --------------------
-    
-    //create a popup object (not added to map yet)
-    var popup = new mapboxgl.Popup({
-        closeButton: false,
-        closeOnClick: false
-        });
     
     //display popup on mouseenter
     map.on('mouseenter', 'swimspots', function (e) {

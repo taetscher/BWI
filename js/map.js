@@ -1,6 +1,7 @@
 import {addSwimSpots} from "../js/add_swimspots.js";
 import {addBWIRasterTiles} from "../js/add_BWITiles.js";
 import {addFlussMess} from '../js/add_flussMS.js';
+import {addWeather} from '../js/add_weatherstations.js';
 
 
 //-------------- INITIALIZE MAP START --------------------
@@ -21,12 +22,20 @@ var map = new mapboxgl.Map({
 //add map control (navigation) buttons
 map.addControl(new mapboxgl.NavigationControl());
 
+//create a popup object (not added to map yet)
+//do this here, so only one is added
+var popup = new mapboxgl.Popup({
+    closeButton: false,
+    closeOnClick: false
+    });
+
 //when map is loaded, load additional layers
 map.on('load', function (){
     
     addBWIRasterTiles(map);
-    addSwimSpots(map);
-    addFlussMess(map);
+    addSwimSpots(map, popup);
+    addFlussMess(map, popup);
+    addWeather(map, popup);
      
 });
 
