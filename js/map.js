@@ -1,7 +1,6 @@
 import {addSwimSpots} from "../js/add_swimspots.js";
 import {addBWIRasterTiles} from "../js/add_BWITiles.js";
-//import {addPly} from "../js/add_ply.js";
-//import {addLin} from "../js/add_line.js";
+import {addFlussMess} from '../js/add_flussMS.js';
 
 
 //-------------- INITIALIZE MAP START --------------------
@@ -27,7 +26,8 @@ map.on('load', function (){
     
     addBWIRasterTiles(map);
     addSwimSpots(map);
-        
+    addFlussMess(map);
+     
 });
 
 //-------------- INITIALIZE MAP END --------------------
