@@ -43,8 +43,8 @@ export function addWeather(map, popup) {
         //create text snippets
         var t1 = '<h6>'+station+'</h6><br>';
         var t2 = 'Stationsname: '+name+'<br>';
-        var t3 = 'Temperatur (°C)'+temp+'<br>';
-        var t4 = 'Höhe (m.Ü.m): '+mUm+'<br>';
+        var t3 = 'Temperatur (°C): '+temp+'<br>';
+        var t4 = 'Höhe (M.ü.M): '+mUm+'<br>';
         var t5 = 'Niederschlag (mm): '+rain+'<br>';
         var t6 = 'Luftfeuchtigkeit (%): '+humidity+'<br>';
         var t7 = 'Windgeschwindigkeit (km/h): '+wind+'<br>';

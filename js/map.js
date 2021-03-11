@@ -36,7 +36,7 @@ map.on('load', function (){
     
     addBWIRasterTiles(map);
     addSwimSpots(map, popup);
-    addFlussMess(map, popup);
+    //addFlussMess(map, popup); (commented out bc. don't want to use too much of the webservice over at ogre)
     addWeather(map, popup);
 });
 
