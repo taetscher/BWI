@@ -34,10 +34,10 @@ var popup = new mapboxgl.Popup({
 //when map is loaded, load additional layers
 map.on('load', function (){
     
-    //addBWIRasterTiles(map);
-    //addSwimSpots(map, popup);
+    addBWIRasterTiles(map);
+    addSwimSpots(map, popup);
     addFlussMess(map, popup);
-    //addWeather(map, popup);
+    addWeather(map, popup);
 });
 
 //-------------- INITIALIZE MAP END --------------------

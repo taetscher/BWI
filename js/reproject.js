@@ -8,28 +8,39 @@ export async function reprojectFromLink(link, targetCRS){
     const json_file = await fetch(link)
     .then(function(response){
         const json = response.json();
-        console.log('BAFU: ', json);
         return json})
-
-    //console.log('JSONFROMLINK:', json_file)
     
-    //prepare FormData (convert json file to blob and simulate uploading a file in the form on the page)
+    const reprojected = await ogrePOST(json_file, targetCRS);
+
+ 
+    return [reprojected, reprojected.timestamp]
+};
+
+
+
+export async function ogrePOST(json_file, targetCRS){
+    /** Takes a json file and a target coordinate system and sends a POST request to http://ogre.adc4gis.com/convert for reprojection of the input file.
+    *@param {string} json_file   json object
+    *@param {string} targetCRS   target coordinate system 
+    *@return {geojson object}   returns the reprojected geojson
+    */
+    
+    
+    //prepare FormData (fake a json file to be able to upload it to ogre)
     var formData = new FormData();
     var blob = new Blob([JSON.stringify(json_file)], { type: 'text/json' });
-    formData.append('upload', blob,'bafujson.json');
+    formData.append('upload', blob, 'bafujson.json');
     formData.append('targetSrs', targetCRS)
     
+    //make the POST request
+    var ogre = 'http://ogre.adc4gis.com/convert';
+    const request = await fetch(ogre, {
+        method: 'POST',
+        body: formData
+    })
+    .then(function(response){
+        return response.json()
+    })
     
-    //send the POST-Request
-    var request = new XMLHttpRequest();
-    request.open('POST', 'http://ogre.adc4gis.com/convert', 0);
-    request.send(formData);
-    
-    
-    var answer = request;
-    var parsed = JSON.parse(answer.responseText);
-    var timestamp = parsed.timestamp;
-
-        
-    return [parsed, timestamp]
-};
+    return request
+}
