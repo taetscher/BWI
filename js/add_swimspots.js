@@ -19,15 +19,15 @@ export function addSwimSpots(map, popup) {
         
         //add the layer
         map.addLayer({
-            'id': 'swimspots',
-            'type': 'symbol',
-            'source': 'CH_swimSpots',
-            'layout': {
+            id: 'swimspots',
+            type: 'symbol',
+            source: 'CH_swimSpots',
+            layout: {
                 'icon-image': 'swim_icon',
                 'icon-size': 1
             },
-            'minzoom': 12,
-            'maxzoom': 19
+            minzoom: 12,
+            maxzoom: 19
             })
     });
     

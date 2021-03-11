@@ -3,6 +3,7 @@ export async function reprojectFromLink(link, targetCRS){
     *@param {string} link        link to geojson file
     *@param {string} targetCRS   target coordinate system (e.g. EPSG:4326)
     *@return {geojson object} parsed   the reprojected geojson
+    *@return {string} timestamp   timestamp of the data
     */
     
     const json_file = await fetch(link)
@@ -10,7 +11,7 @@ export async function reprojectFromLink(link, targetCRS){
         const json = response.json();
         return json})
     
-    const reprojected = await ogrePOST(json_file, targetCRS);
+    const reprojected = await ogrePOSTrequest(json_file, targetCRS);
 
  
     return [reprojected, reprojected.timestamp]
@@ -18,7 +19,7 @@ export async function reprojectFromLink(link, targetCRS){
 
 
 
-export async function ogrePOST(json_file, targetCRS){
+export async function ogrePOSTrequest(json_file, targetCRS){
     /** Takes a json file and a target coordinate system and sends a POST request to http://ogre.adc4gis.com/convert for reprojection of the input file.
     *@param {string} json_file   json object
     *@param {string} targetCRS   target coordinate system 

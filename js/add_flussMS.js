@@ -21,11 +21,11 @@ export async function addFlussMess(map, popup) {
     
     //add layer
     map.addLayer({
-        'id': 'FlussMessstationen',
-        'type': 'circle',
-        'source': 'flussMess',
-        'minzoom': 10,
-        'maxzoom': 19,
+        id: 'FlussMessstationen',
+        type: 'circle',
+        source: 'flussMess',
+        minzoom: 10,
+        maxzoom: 19,
         metadata: {timestamp: timestamp}
     });
     
@@ -35,6 +35,8 @@ export async function addFlussMess(map, popup) {
     //display popup on mouseenter
     map.on('mouseenter', 'FlussMessstationen', function (e) {
         
+        //console.log(e)
+        
         // Change the cursor style as a UI indicator.
         map.getCanvas().style.cursor = 'pointer';
         
@@ -43,6 +45,8 @@ export async function addFlussMess(map, popup) {
         var name = e.features[0].properties.name;
         var temp_class = e.features[0].properties['temp-class'];
         var timestamp = e.features[0].layer.metadata.timestamp;
+        var webseite = e.features[0].properties.description;
+        var w_typ = e.features[0].properties['w-typ'];
         
         // Ensure that if the map is zoomed out such that multiple
         // copies of the feature are visible, the popup appears
@@ -52,7 +56,7 @@ export async function addFlussMess(map, popup) {
         }
         
         // create text for popup
-        var text = '<h6>'+name+'</h6><br>Temperaturklasse: '+temp_class+'<br>Timestamp: '+timestamp;
+        var text = '<h6>'+name+'</h6><br>Temperaturklasse: '+temp_class+'<br>W-Typ: '+w_typ+'<br>Timestamp: '+timestamp;
 
         // Populate the popup and set its coordinates
         // based on the feature found.

@@ -22,6 +22,8 @@ export function addWeather(map, popup) {
     //-------------- USER INTERACTION HANDLING START --------------------
     //display popup on mouseenter
     map.on('mouseenter', 'Wetterstationen', function (e) {
+        
+        //console.log(e);
 
         // Change the cursor style as a UI indicator.
         map.getCanvas().style.cursor = 'pointer';
