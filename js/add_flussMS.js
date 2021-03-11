@@ -1,6 +1,11 @@
 import {reprojectFromLink} from '../js/reproject.js'
 
 export async function addFlussMess(map, popup) {
+    /**
+    *Add source, layer and user interaction of river measuring stations to map
+    *@param  {mapbox map object}   map   The map which receives the river measuring stations layer
+    *@param  {mapbox popup object} popup The mapbox popup object which receives tooltip information
+    */
     
     // The data here is in EPSG:21781 and needs to be converted to EPSG:3857 in order to be displayed properly
     
