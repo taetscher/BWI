@@ -2,7 +2,7 @@ import {addSwimSpots} from "../js/add_swimspots.js";
 import {addBWIRasterTiles} from "../js/add_BWITiles.js";
 import {addFlussMess} from '../js/add_flussMS.js';
 import {addWeather} from '../js/add_weatherstations.js';
-
+import {addPOIs} from '../js/add_poi.js';
 
 
 
@@ -18,8 +18,8 @@ var map = new mapboxgl.Map({
             zoom: 6.2,
             maxBounds: [[-2.841779,42.621299], //southwestern corner of bounds
                         [18.710814,50.955364]  //northeastern corner of bounds
-                       ],
-            preserveDrawingBuffer: true
+                       ]
+            //,preserveDrawingBuffer: true
           });
 
 //add map control (navigation) buttons
@@ -37,8 +37,9 @@ map.on('load', function (){
     
     addBWIRasterTiles(map);
     addSwimSpots(map, popup);
+    addPOIs(map, popup);
     //addFlussMess(map, popup); (commented out bc. don't want to use too much of the webservice over at ogre)
-    addWeather(map, popup);
+    //addWeather(map, popup); (commented out bc. don't want to use too much of the webservice over at ogre)
 });
 
 //-------------- INITIALIZE MAP END --------------------
