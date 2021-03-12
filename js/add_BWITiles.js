@@ -22,4 +22,34 @@ export function addBWIRasterTiles(map) {
     
     //adjust opacity of raster tiles
     map.setPaintProperty('randomTiles', 'raster-opacity', 0.2);
+    
+    //-------------- USER INTERACTION HANDLING START --------------------
+
+        
+    //WORK IN PROGRESS: GET RASTER VALUES UNDER MOUSE CURSOR
+    //getRGBAunderCursor(map)
+
+    
+    //-------------- USER INTERACTION HANDLING END --------------------
+}
+
+function getRGBAunderCursor(map){
+    
+    //WORK IN PROGRESS: GET RASTER VALUES UNDER MOUSE CURSOR
+    //TODO: find out if there is a way with which only the raster tiles can be read 
+    map.on('mousemove', function (e) {
+        const canvas = map.getCanvas(); 
+        const gl = canvas.getContext('webgl') || canvas.getContext('webgl2');
+        if (gl) {
+            const { point } = e;
+            const { x, y } = point;            
+            const data = new Uint8Array(4);
+            const canvasX = x - canvas.offsetLeft;
+            const canvasY = canvas.height - y - canvas.offsetTop;
+            gl.readPixels(canvasX, canvasY, 1, 1, gl.RGBA, gl.UNSIGNED_BYTE, data);
+            const [r, g, b, a] = data;
+            const color = `rgba(${r}, ${g}, ${b}, ${a})`;
+            console.log(`Color at (${x}, ${y}) = ${color}`);
+        }
+    })
 }

@@ -18,7 +18,8 @@ var map = new mapboxgl.Map({
             zoom: 6.2,
             maxBounds: [[-2.841779,42.621299], //southwestern corner of bounds
                         [18.710814,50.955364]  //northeastern corner of bounds
-                       ]
+                       ],
+            preserveDrawingBuffer: true
           });
 
 //add map control (navigation) buttons

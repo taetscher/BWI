@@ -1,57 +1,64 @@
-export function addWeather(map, popup) {
+import {reprojectFromLink} from '../js/reproject.js'
+
+export async function addWeather(map, popup) {
     /**
     *Add source, layer and user interaction of wather measuring stations to map
     *@param  {mapbox map object}   map   The map which receives the weather stations layer
     *@param  {mapbox popup object} popup The mapbox popup object which receives tooltip information
     */
     
+    var reproject = await reprojectFromLink('https://data.geo.admin.ch/ch.meteoschweiz.messwerte-lufttemperatur-10min/ch.meteoschweiz.messwerte-lufttemperatur-10min_de.json', 'EPSG:4326');
+    
+    var ms_live = reproject[0];
+    var timestamp = reproject[1];
+    
     //add source
     map.addSource('weatherstations_source', {
         type: 'geojson',
-        data: '../geojson/weatherstations.geojson', //could theoretically also be a link!
+        data: {
+            type: 'FeatureCollection',
+            features: ms_live.features
+        },
         attribution: 'Bundesamt für Meteorologie und Klimatologie MeteoSchweiz'
     });
     
     //add layer
     map.addLayer({
-        'id': 'Wetterstationen',
-        'type': 'circle',
-        'source': 'weatherstations_source',
-        'minzoom': 10,
-        'maxzoom': 19
+        id: 'Wetterstationen',
+        type: 'circle',
+        source: 'weatherstations_source',
+        minzoom: 10,
+        maxzoom: 19,
+        metadata: {timestamp: timestamp}
     });
     
     
     //-------------- USER INTERACTION HANDLING START --------------------
     //display popup on mouseenter
     map.on('mouseenter', 'Wetterstationen', function (e) {
+        
+        console.log(e)
 
         // Change the cursor style as a UI indicator.
         map.getCanvas().style.cursor = 'pointer';
         
         //get data
         var coordinates = e.features[0].geometry.coordinates.slice();
-        var station = e.features[0].properties.Station;
-        var name = e.features[0].properties.Name;
-        var mUm = e.features[0].properties['Höhe'];
-        var rain = e.features[0].properties['Niederschlag (mm)'];
-        var humidity = e.features[0].properties['Luftfeuchtigkeit (%)'];
-        var temp = e.features[0].properties['Temperatur (°C)'];
-        var wind = e.features[0].properties["Windgeschwindigkeit (km/h)"];
-        var timestamp = e.features[0].properties.Time;
+        var station = e.features[0].properties.id;
+        var name = e.features[0].properties['station_name'];
+        var mUm = e.features[0].properties.altitude;
+        var temp = e.features[0].properties.value;
+        var timestamp = e.features[0].properties.reference_ts;
 
         //create text snippets
-        var t1 = '<h6>'+station+'</h6><br>';
+        var t1 = '<h6>'+station+'</h6>';
         var t2 = 'Stationsname: '+name+'<br>';
         var t3 = 'Temperatur (°C): '+temp+'<br>';
         var t4 = 'Höhe (M.ü.M): '+mUm+'<br>';
-        var t5 = 'Niederschlag (mm): '+rain+'<br>';
-        var t6 = 'Luftfeuchtigkeit (%): '+humidity+'<br>';
-        var t7 = 'Windgeschwindigkeit (km/h): '+wind+'<br>';
-        var t8 = 'Timestamp: '+parseTimestamp(timestamp);
+        var t5 = 'Timestamp: '+timestamp;
         
         //combine text snippets
-        var text = t1+t2+t3+t4+t5+t6+t7+t8;
+        var text = t1+t2+t3+t4+t5;
         
         // Ensure that if the map is zoomed out such that multiple
         // copies of the feature are visible, the popup appears
