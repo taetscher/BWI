@@ -38,8 +38,8 @@ map.on('load', function (){
     addBWIRasterTiles(map);
     addSwimSpots(map, popup);
     addPOIs(map, popup);
-    //addFlussMess(map, popup); (commented out bc. don't want to use too much of the webservice over at ogre)
-    //addWeather(map, popup); (commented out bc. don't want to use too much of the webservice over at ogre)
+    //addFlussMess(map, popup); //(commented out bc. don't want to use too much of the webservice over at ogre)
+    //addWeather(map, popup); //(commented out bc. don't want to use too much of the webservice over at ogre)
 });
 
 //-------------- INITIALIZE MAP END --------------------

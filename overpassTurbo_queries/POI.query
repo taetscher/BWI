@@ -10,7 +10,6 @@
 (
     node["shop"="kiosk"]["name"](area.searchArea);
   	node["shop"="convenience"]["name"](area.searchArea);
-  	node["amenity"="fast_food"]["name"](area.searchArea);
 	node["leisure"="firepit"](area.searchArea);
     node["tourism"="picnic_site"](area.searchArea);
   	node["amenity"="bbq"](area.searchArea);
