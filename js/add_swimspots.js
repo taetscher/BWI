@@ -8,7 +8,7 @@ export function addSwimSpots(map, popup) {
     //in order to use data with mapbox, you need to add a source first
     map.addSource('CH_swimSpots', {
             type: 'geojson',
-            data: '../geojson/swimming_spots.geojson',
+            data: './geojson/swimming_spots.geojson',
             attribution: "© OpenStreetMap contributors"
         })
     
