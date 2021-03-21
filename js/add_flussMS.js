@@ -1,4 +1,4 @@
-import {reprojectFromLink} from '../js/reproject.js'
+import {reprojectFromLink} from './reproject.js'
 
 export async function addFlussMess(map, popup) {
     /**

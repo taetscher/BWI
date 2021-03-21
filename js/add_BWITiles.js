@@ -6,7 +6,7 @@ export function addBWIRasterTiles(map) {
     //adding a local raster tile source
     map.addSource('raster_Tiling_test', {
             'type': 'raster',
-            'tiles': ['../rasterTiles/randomTiles/{z}/{x}/{y}.png'],
+            'tiles': ['./rasterTiles/randomTiles/{z}/{x}/{y}.png'],
             'tileSize': 256
             
         })

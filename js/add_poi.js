@@ -8,7 +8,7 @@ export function addPOIs(map, popup) {
     //in order to use data with mapbox, you need to add a source first
     map.addSource('BWI_poi_source', {
             type: 'geojson',
-            data: '../geojson/poi.geojson',
+            data: './geojson/poi.geojson',
             attribution: "© OpenStreetMap contributors"
         })
     

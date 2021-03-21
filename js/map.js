@@ -1,8 +1,8 @@
-import {addSwimSpots} from "../js/add_swimspots.js";
-import {addBWIRasterTiles} from "../js/add_BWITiles.js";
-import {addFlussMess} from '../js/add_flussMS.js';
-import {addWeather} from '../js/add_weatherstations.js';
-import {addPOIs} from '../js/add_poi.js';
+import {addSwimSpots} from "./add_swimspots.js";
+import {addBWIRasterTiles} from "./add_BWITiles.js";
+import {addFlussMess} from './add_flussMS.js';
+import {addWeather} from './add_weatherstations.js';
+import {addPOIs} from './add_poi.js';
 
 
 
@@ -10,7 +10,7 @@ import {addPOIs} from '../js/add_poi.js';
 //create new map
 var map = new mapboxgl.Map({
             container: 'map',
-            style: '../mapstyles/BWIStyle.json',
+            style: './mapstyles/BWIStyle.json',
             hash: true, //set this to true when productive (shows xyz in URL and updates it on the fly)
             minZoom: 6,
             maxZoom: 19,

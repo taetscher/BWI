@@ -13,7 +13,7 @@ export function addSwimSpots(map, popup) {
         })
     
     //load an icon to be used to display location of swimming spots
-    map.loadImage('../mapstyles/icons/swimming_icon_20.png', function (error, image){
+    map.loadImage('./mapstyles/icons/swimming_icon_20.png', function (error, image){
         
     //add the image to the map
     map.addImage('swim_icon', image);
