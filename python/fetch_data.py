@@ -8,7 +8,7 @@ import pathlib
 import os
 
 # variables
-setup = True # permission to create folders if necessary
+setup = True # permission to create folders
 base_path = pathlib.Path("..") # project level
 url_dem = "https://cms.geo.admin.ch/ogd/topography/DHM25_MM_ASCII_GRID.zip"
 url_meteo = "https://data.geo.admin.ch/ch.meteoschweiz.messwerte-aktuell/VQHA80.csv"
@@ -22,7 +22,7 @@ urls = [url_meteo, url_precip, url_boundaries, url_dem]
 folder_dict = dict(zip(data, folders))
 data_dict = dict(zip(data, urls))
 
-def checkFolderStructure(base_path, folders, base = "data"):
+def getMissingFolders(base_path, folders, base = "data"):
     """
     This function checks if the folder structure is set up for data download.
     Returns list of missing folders.
@@ -34,20 +34,31 @@ def checkFolderStructure(base_path, folders, base = "data"):
     """
     # list to store missing folders
     notfound = []
+    path = base_path / base
     # check base
     if not os.path.exists(base_path / base):
         notfound.append(base_path / base)
-        return notfound
-    # next level
-    path = base_path / base
-    # check each folder
-    for folder in folders:
-        if not os.path.exists(path / folder):
-            if not folder in notfound:
-                notfound.append(folder)
+        notfound.append([path / folder for folder in set(folders)])
+    # base ok - check folders
+    else:
+        for folder in folders:
+            if not os.path.exists(path / folder):
+                if not folder in notfound:
+                    notfound.append(folder)
+        notfound = [path / folder for folder in notfound]
 
     return notfound
 
+def setupFolderStructure(missingfolders):
+    """
+    Creates all missing folders required for data fetching
+    Disregards file-paths.
+
+    :param missingfolders: list of Path objects (missing folders)
+    """
+    for folder in missingfolders:
+        if folder.isdir():
+            os.mkdir(folder)
 
 
 
@@ -91,4 +102,18 @@ def fetchSwissBoundaries(url, custom_location = False):
 
 
 if __name__ == "__main__":
-    print("Execution")
+
+    # Check + prepare folder setting
+    missing = getMissingFolders(base_path, folders)
+    # create missing folders
+    if (len(missing) > 0) and setup:
+        setupFolderStructure(missing)
+    else:
+        print("The following folders couldn't be created:")
+        for folder in missing:
+            print(folder)
+        raise PermissionError("No permission to create folders.\n" +
+                              "Either create folders manually, or set variable 'setup' to True!")
+
+    # Begin of fetching data
+    
