@@ -3,24 +3,29 @@ This scripts serves the fetching of all the required data sources.
 Saving files in "data" folder (project-level)
 """
 # libs
-import urllib
+import requests
 import pathlib
 import os
 
 # variables
 setup = True # permission to create folders
+fetchAll = True # if all data should be fetched (False = no base data)
 base_path = pathlib.Path("..") # project level
-url_dem = "https://cms.geo.admin.ch/ogd/topography/DHM25_MM_ASCII_GRID.zip"
 url_meteo = "https://data.geo.admin.ch/ch.meteoschweiz.messwerte-aktuell/VQHA80.csv"
+meta_meteo = "https://data.geo.admin.ch/ch.meteoschweiz.messnetz-automatisch/ch.meteoschweiz.messnetz-automatisch_de.csv"
 url_precip = "https://data.geo.admin.ch/ch.meteoschweiz.messwerte-aktuell/VQHA98.csv"
 url_boundaries = "https://data.geo.admin.ch/ch.swisstopo.swissboundaries3d-gemeinde-flaeche.fill/shp/21781/ch.swisstopo.swissboundaries3d-gemeinde-flaeche.fill.zip"
-
-# current settings
-data = ["10min_meteo", "10min_precip", "swissBOUNDARIES", "DHM25"]
-folders = ["meteorological", "meteorological", "boundaries", "dem"]
+url_dem = "https://cms.geo.admin.ch/ogd/topography/DHM25_MM_ASCII_GRID.zip"
 urls = [url_meteo, url_precip, url_boundaries, url_dem]
-folder_dict = dict(zip(data, folders))
-data_dict = dict(zip(data, urls))
+# list with custom names (data descriptive)
+data = ["10min_meteo", "10min_precip", "meta_meteo", "swissBOUNDARIES", "DHM25"]
+# list of corresponding storage folders
+folders = ["meteorological", "meteorological", "meteorological", "boundaries", "dem"]
+# filenames
+filenames = ["10min_meteo.csv", "10min_preip.csv", "meteo_metadata.csv", "swissBOUNDARIES3D.zip", "DHM25_ASCII.zip"]
+
+# dictionary with download information
+data_dict = dict(zip(data, list(zip(folders, urls, filenames))))
 
 def getMissingFolders(base_path, folders, base = "data"):
     """
@@ -61,17 +66,59 @@ def setupFolderStructure(missingfolders):
             os.mkdir(folder)
 
 
-
-def fetchMeteoData(url, custom_location = False):
+def download_data(url, outdir, filename):
     """
-    This function fetches data from meteorological stations of the Federal Office of Meteorology and
-    Climatology (MeteoSwiss) via Opendata.Swiss.
+    Function to fetch data from url and save to outdir
 
-    TODO: Currently dummy function returning True
+    :param url: link to data
+    :param outdir: Path object
+    :param filename: str
+    :return: True or False
+    """
+    try:
+        with requests.get(url) as req:
+            with open(outdir / filename, 'wb') as f:
+                for chunk in req.iter_content(chunk_size=8192):
+                    if chunk:
+                        f.write(chunk)
+        return True
+    except Exception as e:
+        print(e)
+        return False
 
-    :param url: download link
-    :param custom_location: folder-path. Can be set if you want to save data in custom location.
-    :return: True if successful, False if download wasn't successful
+
+
+
+def fetchAllData(data_dict, base_path = base_path, base = "data"):
+    """
+    This function fetches all data listed in 'data_dict'
+    Stores data in corresponding 'folder_dict' locations
+
+    Info: keys should be identical in each dictionary!
+
+    :param data_dict: dictionary with download information (url, outfolder, filename)
+    :returns success: list with information of download success for each file
+    """
+    keys = data_dict.keys()
+    path = base_path / base
+    success = [False for i in range(len(keys))]
+    for i, key in enumerate(keys):
+
+        # get download-info
+        outfolder, url, filename = data_dict.get(key)
+
+        # download data
+        success[i] = download_data(url, path / outfolder, filename)
+
+    return success
+
+
+def fetchMeteoData(type, outfolder):
+    """
+
+    :param url: link to data
+    :param outfolder: where to store the data in
+    :return:
     """
     return True
 
@@ -116,4 +163,11 @@ if __name__ == "__main__":
                               "Either create folders manually, or set variable 'setup' to True!")
 
     # Begin of fetching data
-    
+    base_path = base_path / "data"
+    folders = [base_path / folder for folder in folders]
+
+    # download data
+    if fetchAll: # fetchAll = useful if setting up project for the first time
+        fetchAllData(data_dict)
+    else:
+        print("Download individually here...")
