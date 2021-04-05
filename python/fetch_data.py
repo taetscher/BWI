@@ -134,49 +134,17 @@ def fetchData(key, data_dict, base_path = base_path, base = "data"):
     return success
 
 
-# def fetchMeteoData(type, outfolder):
-#     """
-#
-#     :param url: link to data
-#     :param outfolder: where to store the data in
-#     :return:
-#     """
-#     return True
-#
-# def fetchDEM(url, custom_location = False):
-#     """
-#     This function fetches digital elevation model data for Switzerland.
-#     Data:
-#
-#     TODO: Currently dummy function returning True
-#
-#     :param url: download link
-#     :param custom_location: folder-path. Can be set if you want to save data in custom location
-#     :return: True if successful, False if download wasn't successful
-#     """
-#     return True
-#
-# def fetchSwissBoundaries(url, custom_location = False):
-#     """
-#     This function fetches border base-data provided by Swisstopo via Opendata.Swiss.
-#
-#     TODO: Currently dummy function returning True
-#
-#     :param url: download link
-#     :param custom_location: folder-path. Can be set if you want to save data in custom location
-#     :return: True if successful, False if download wasn't successful
-#     """
-#     return True
-
-
 if __name__ == "__main__":
 
     # Check + prepare folder setting
     missing = getMissingFolders(base_path, folders)
-    # create missing folders
+
+    # case 1: create missing folders automatically
     if (len(missing) > 0) and setup:
         setupFolderStructure(missing)
-    else:
+
+    # case 2: missing folders and no permission to create
+    if (len(missing) > 0) and not setup:
         print("The following folders couldn't be created:")
         for folder in missing:
             print(folder)
@@ -184,6 +152,7 @@ if __name__ == "__main__":
                               "Either create folders manually, or set variable 'setup' to True!")
 
     # Begin of fetching data
+    # TODO: check dependencies with data_dict before changing
     base_path = base_path / "data"
     folders = [base_path / folder for folder in folders]
 
@@ -191,4 +160,5 @@ if __name__ == "__main__":
     if fetchAll: # fetchAll = useful if setting up project for the first time
         fetchAllData(data_dict)
     else:
-        print("Download individually here...")
+        print("Download individually here / as required")
+        fetchData("10min_meteo", data_dict)
