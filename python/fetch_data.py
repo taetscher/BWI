@@ -97,7 +97,7 @@ def fetchAllData(data_dict, base_path = base_path, base = "data"):
     Info: keys should be identical in each dictionary!
 
     :param data_dict: dictionary with download information (url, outfolder, filename)
-    :returns success: list with information of download success for each file
+    :returns success: list with information of download success for each file [True/False]
     """
     keys = data_dict.keys()
     path = base_path / base
@@ -113,39 +113,60 @@ def fetchAllData(data_dict, base_path = base_path, base = "data"):
     return success
 
 
-def fetchMeteoData(type, outfolder):
+def fetchData(key, data_dict, base_path = base_path, base = "data"):
     """
+    This function serves the data-download of INDIVIDUAL datasets required for the BWI.
 
-    :param url: link to data
-    :param outfolder: where to store the data in
-    :return:
+    :param key: str, naming the type of the data
+    :param data_dict: dict, containing all download information
+    :return: True if success, False if fail
     """
-    return True
+    if not key in data_dict.keys():
+        print("Key not contained in data-dictionary!\nPlease select a valid data-key!")
+        return False
 
-def fetchDEM(url, custom_location = False):
-    """
-    This function fetches digital elevation model data for Switzerland.
-    Data:
+    # specifications
+    path = base_path / base
+    outfolder, url, filename = data_dict.get(key)
+    # download data
+    success = download_data(url, path / outfolder, filename)
 
-    TODO: Currently dummy function returning True
+    return success
 
-    :param url: download link
-    :param custom_location: folder-path. Can be set if you want to save data in custom location
-    :return: True if successful, False if download wasn't successful
-    """
-    return True
 
-def fetchSwissBoundaries(url, custom_location = False):
-    """
-    This function fetches border base-data provided by Swisstopo via Opendata.Swiss.
-
-    TODO: Currently dummy function returning True
-
-    :param url: download link
-    :param custom_location: folder-path. Can be set if you want to save data in custom location
-    :return: True if successful, False if download wasn't successful
-    """
-    return True
+# def fetchMeteoData(type, outfolder):
+#     """
+#
+#     :param url: link to data
+#     :param outfolder: where to store the data in
+#     :return:
+#     """
+#     return True
+#
+# def fetchDEM(url, custom_location = False):
+#     """
+#     This function fetches digital elevation model data for Switzerland.
+#     Data:
+#
+#     TODO: Currently dummy function returning True
+#
+#     :param url: download link
+#     :param custom_location: folder-path. Can be set if you want to save data in custom location
+#     :return: True if successful, False if download wasn't successful
+#     """
+#     return True
+#
+# def fetchSwissBoundaries(url, custom_location = False):
+#     """
+#     This function fetches border base-data provided by Swisstopo via Opendata.Swiss.
+#
+#     TODO: Currently dummy function returning True
+#
+#     :param url: download link
+#     :param custom_location: folder-path. Can be set if you want to save data in custom location
+#     :return: True if successful, False if download wasn't successful
+#     """
+#     return True
 
 
 if __name__ == "__main__":
