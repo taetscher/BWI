@@ -1,6 +1,13 @@
 """
-This scripts serves the fetching of all the required data sources.
-Saving files in "data" folder (project-level)
+The purpose of this script is the data-fetching of all required datasets for the Badewetter-Index (BWI).
+It contains functions to:
+    - check folder structure + set up
+    - check data availability + set up
+    - data download
+
+Authors: @taetscher + @codicolus
+Licence:
+
 """
 # libs
 import requests
@@ -10,8 +17,8 @@ from itertools import chain
 
 # variables
 base = "data" # base-folder for data-storage
-setup = True # permission to create folders
-fetchAll = True # if all data should be fetched (False = no base data)
+setup = False # permission to create folders
+fetchAll = False # if all data should be fetched (False = no base data)
 base_path = pathlib.Path("..") # project level
 url_meteo = "https://data.geo.admin.ch/ch.meteoschweiz.messwerte-aktuell/VQHA80.csv"
 meta_meteo = "https://data.geo.admin.ch/ch.meteoschweiz.messnetz-automatisch/ch.meteoschweiz.messnetz-automatisch_de.csv"
